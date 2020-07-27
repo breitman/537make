@@ -1,0 +1,22 @@
+==2385== Memcheck, a memory error detector
+==2385== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2385== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2385== Command: 537make
+==2385==
+Could not allocate memory for new node
+==2385==
+==2385== HEAP SUMMARY:
+==2385==     in use at exit: 46,632 bytes in 7 blocks
+==2385==   total heap usage: 9 allocs, 2 frees, 83,544 bytes allocated
+==2385==
+==2385== LEAK SUMMARY:
+==2385==    definitely lost: 0 bytes in 0 blocks
+==2385==    indirectly lost: 0 bytes in 0 blocks
+==2385==      possibly lost: 0 bytes in 0 blocks
+==2385==    still reachable: 46,632 bytes in 7 blocks
+==2385==         suppressed: 0 bytes in 0 blocks
+==2385== Reachable blocks (those to which a pointer was found) are not shown.
+==2385== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==2385==
+==2385== For counts of detected and suppressed errors, rerun with: -v
+==2385== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
